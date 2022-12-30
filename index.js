@@ -12,7 +12,7 @@ const main = async () => {
             case 1:
                 //mostramos el mensaje
                 const place = await readInput('city:');
-                console.log(place);
+                await searches.city(place);
                 //buscamos los lugares
 
                 //seleccionamos el lugar
